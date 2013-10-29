@@ -1,0 +1,35 @@
+{
+  "name": "bassloader",
+  "version": "0.0.0",
+  "description": "Pronounced \"Base Loader\". This is a thin utility for loading pages based on url changes with Backbone",
+  "main": "bassloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andyperlitch/bassloader.git"
+  },
+  "keywords": [
+    "backbone",
+    "pageloader",
+    "router",
+    "push-state"
+  ],
+  "author": "Andy Perlitch",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/andyperlitch/bassloader/issues"
+  },
+  "dependencies": {
+    "bassview": "~0.1.0",
+    "browserify": "~2.35.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "sinon": "~1.7.3",
+    "chai": "~1.8.1",
+    "sinon-chai": "~2.4.0",
+    "mocha-phantomjs": "~3.1.5"
+  }
+}
