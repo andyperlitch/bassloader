@@ -4,7 +4,7 @@
   "description": "Pronounced \"Base Loader\". This is a thin utility for loading pages based on url changes with Backbone",
   "main": "bassloader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
