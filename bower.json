@@ -1,0 +1,17 @@
+{
+  "name": "bassloader",
+  "main": "bassloader.js",
+  "version": "0.0.0",
+  "authors": [
+    "Andy Perlitch <andyperlitch@gmail.com>"
+  ],
+  "description": "Pronounced \"Base Loader\". This is a thin utility for loading pages based on url changes with Backbone",
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
