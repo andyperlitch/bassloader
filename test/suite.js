@@ -19,6 +19,7 @@ describe('Bassloader', function() {
     });
     
     afterEach(function() {
+        ldr.router.navigate('', {trigger:true});
         ldr = undefined;
         sandbox.restore();
     });
@@ -205,7 +206,11 @@ describe('Bassloader', function() {
         }
         ldr.page(pages);
         ldr.router.navigate('route1', { trigger: true} );
-        expect(spy).to.have.been.calledOnce; 
+        expect(spy).to.have.been.calledOnce;
+        expect(spy.getCall(0).args[0]).to.deep.equal({
+            thing1: thing1,
+            thing2: thing2
+        });
     });
     
 });
