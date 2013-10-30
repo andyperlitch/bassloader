@@ -24,7 +24,8 @@
   "dependencies": {
     "bassview": "~0.1.0",
     "browserify": "~2.35.0",
-    "backbone": "~1.1.0"
+    "backbone": "~1.1.0",
+    "underscore": "~1.5.2"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
