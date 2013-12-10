@@ -1,6 +1,6 @@
 {
   "name": "bassloader",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Pronounced \"Base Loader\". This is a thin utility for loading pages based on url changes with Backbone",
   "main": "bassloader.js",
   "scripts": {
